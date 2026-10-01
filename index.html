@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Expression</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chrome for Developers</h1>
+    </header>
+
+    <main>
+        <section class="devtools">
+            <header class="devtools-bar">
+                <button id="inspeccionar">↖</button>
+                <button id="dispositivo">▣</button>
+
+                <nav>
+                    <button>Elements</button>
+                    <button id="console">Console</button>
+                    <button>Sources</button>
+                    <button>Network</button>
+                    <button>»</button>
+                </nav>
+            </header>
+
+            <section class="console-bar">
+                <button id="pausa">▶</button>
+                <button id="borrar">◯</button>
+                <button id="contexto">top ▼</button>
+                <button id="live">◉</button>
+                <input id="filtro" type="text" placeholder="Filter">
+                <button id="niveles">Default levels ▼</button>
+                <button id="problemas">1 Issue</button>
+            </section>
+
+            <section class="expression">
+                <p>document.activeElement</p>
+                <input id="expresion" type="text" value="document.activeElement">
+                <output id="resultado">main#main-content</output>
+            </section>
+        </section>
+
+        <p class="texto">Observa los valores de JavaScript en tiempo real con Live ...</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
