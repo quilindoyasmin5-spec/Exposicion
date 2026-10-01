@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #102c4a;
+}
+
+header {
+    background: #0b2742;
+    color: white;
+    padding: 18px 35px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+main {
+    padding: 70px 8%;
+}
+
+.devtools {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px #061a2b;
+}
+
+.devtools-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    color: #333;
+    padding: 12px;
+}
+
+button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 10px;
+}
+
+button:hover {
+    background: #e8eef5;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+nav button {
+    font-size: 18px;
+}
+
+#console {
+    border-bottom: 3px solid #1976d2;
+}
+
+.console-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 12px;
+}
+
+#live {
+    font-size: 20px;
+    color: #1976d2;
+}
+
+#filtro {
+    flex: 1;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.expression {
+    min-height: 260px;
+    padding: 25px;
+    font-family: monospace;
+    color: #333;
+}
+
+.expression p {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+#expresion {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8aa9c4;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+#resultado {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+    font-size: 17px;
+}
+
+.texto {
+    color: white;
+    font-size: 26px;
+    margin-top: 45px;
+}
